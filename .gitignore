@@ -30,9 +30,6 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
-
 # vercel
 .vercel
 
@@ -48,11 +45,3 @@ next-env.d.ts
 /data/
 *.db
 *.sqlite
-
-# Drizzle マイグレーション（生成ファイル）
-# ※チームで共有する場合はコメントアウトを解除
-# /drizzle/
-##JWT_SECRET・AES_SECRET_KEY等
-.env.local
-### DBファイル
-data/portal.db
